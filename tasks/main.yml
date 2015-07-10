@@ -1,0 +1,5 @@
+---
+- name: Copy MariaDB yum repo template.
+  template:
+    src: repo.j2
+    dest: /etc/yum.repos.d/MariaDB.repo
